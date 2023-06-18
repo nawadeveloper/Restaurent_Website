@@ -47,13 +47,13 @@ const Gallery = () => {
       autoPlay={true}
       infinite={true}
       responsive={responsive}
-      animationDuration={2000}
+      animationDuration={800}
       disableDotsControls={true}
       autoPlayInterval={2000}
       renderPrevButton={() => {
         return (
           <button
-            className="bg-prime/70 w-[20px] h-[20px] text-yellow-500 p-0 relative top-[4px] right-[4px] rounded-full hover:bg-prime"
+            className="bg-prime/70 w-[20px] h-[20px] text-yellow-500 p-0 relative top-[4px] right-[4px] rounded-full hover:bg-prime hover:text-white"
             onClick={onclick}
           >
             <span class="material-symbols-outlined text-[20px]">
@@ -65,7 +65,7 @@ const Gallery = () => {
       renderNextButton={() => {
         return (
           <button
-            className="bg-prime/70 w-[20px] h-[20px] text-yellow-500 p-0 relative top-[4px] left-[4px] rounded-full hover:bg-prime"
+            className="bg-prime/70 w-[20px] h-[20px] text-yellow-500 p-0 relative top-[4px] left-[4px] rounded-full hover:bg-prime hover:text-white"
             onClick={onclick}
           >
             <span class="material-symbols-outlined text-[20px]">

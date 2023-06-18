@@ -43,16 +43,13 @@ const Menus = () => {
           </Link>
         </li>
         <li>
-          <Link
-            activeClass="text-yellow-500"
+          <a
+            href="https://www.clover.com/online-ordering/gorkhali-kitchen-tampa"
+            target="_blank"
             className="cursor-pointer hover:text-gray-300 p-3"
-            smooth={false}
-            spy={true}
-            duration={100}
-            to="#"
           >
             order
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>

@@ -6,6 +6,9 @@ import Menu_section from "./components/Menu_section";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Review from "./components/Review";
+import k_img from "./assets/k.png";
+import j_img from "./assets/j.png";
+import r_img from "./assets/r.png";
 
 function App() {
   return (
@@ -39,19 +42,19 @@ function App() {
         </p>
         <div className="w-full max-w-5xl mx-auto px-4 lg:px-0 pt-2 pb-9 grid grid-flow-row lg:grid-flow-col md:grid-cols-3 gap-6 lg:gap-9">
           <Review
-            img=""
+            img={k_img}
             star={5}
             name="Kimberly Kubek"
             review="We’ve never had this ethnic food before and it was delicious. Lots of flavor and you don’t have to have heat, if you’re not into that, to have flavorful food. We did a range of heat from none to medium.  Flavors, herbs and spices combined in a way to be something unique but oddly familiar too. We went primarily with Nepali food. It was really good and interesting. The service was amazing. Server, manager, and owner were all available and helpful but also smiling, personable and willing to educate and this cuisine."
           />
           <Review
-            img=""
+            img={j_img}
             star={5}
             name="Jacob Williams"
             review="Incredible, authentic Nepali (and Indian) food right here in Tampa. The spicy dishes are quite spicy, like they should be! Staff was very helpful. If you're an adventurous foodie, don't miss it."
           />
           <Review
-            img=""
+            img={r_img}
             star={5}
             name="Radhames Gonzalez"
             review="We went to a different restaurant right before walking into this one( the other one, the service was way to slow, which only had 1 other table with guest). We were so happy we walked into this one. The service was quick and the food was delicious! The waiter took his time to explain the menu and what each item was. The goat was amazing with the right amount of spice and tender. Will definitely return here."

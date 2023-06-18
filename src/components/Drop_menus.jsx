@@ -8,7 +8,7 @@ const Drop_menus = (props) => {
   let height = addClass ? "h-44" : "h-0";
   return (
     <nav
-      className={`overflow-hidden z-50 fixed top-[45px] right-0 left-0 sm:hidden ${height} ease-in duration-200`}
+      className={`overflow-hidden border-b-[1px] border-gray-500/50 z-50 fixed top-[37px] right-0 left-0 sm:hidden ${height} ease-in duration-200`}
     >
       <ul className="list-none border-t-[1px] border-gray-500 text-white uppercase">
         <li className="border-b border-b-gray-500 bg-gray-800">
@@ -49,16 +49,13 @@ const Drop_menus = (props) => {
           </Link>
         </li>
         <li className="border-b border-b-gray-500 bg-gray-800">
-          <Link
-            activeClass="text-yellow-500"
+          <a
+            href="https://www.clover.com/online-ordering/gorkhali-kitchen-tampa"
+            target="_blank"
             className="cursor-pointer hover:text-gray-300 p-2 block text-center"
-            smooth={false}
-            spy={true}
-            duration={100}
-            to="#"
           >
             order
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
