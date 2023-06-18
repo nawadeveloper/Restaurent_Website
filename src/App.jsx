@@ -68,7 +68,7 @@ function App() {
 
       <div className="bg-prime w-full">
         <div className="w-full max-w-5xl mx-auto text-gray-500 text-sm border-t-[1px] border-gray-400">
-          <p className="py-4">
+          <p className="py-4 built_by_Nawa">
             &#169; 2023{" "}
             <a className="underline decoration-gray-300" href="#">
               GORKHALI KITCHEN
