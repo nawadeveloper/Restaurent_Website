@@ -53,20 +53,24 @@ const Gallery = () => {
       renderPrevButton={() => {
         return (
           <button
-            className="bg-prime/70 w-[20px] h-[20px] bold text-sm text-yellow-500 p-0 relative top-[2px] right-[4px] leading-[20px] rounded-full hover:bg-prime"
+            className="bg-prime/70 w-[20px] h-[20px] text-yellow-500 p-0 relative top-[4px] right-[4px] rounded-full hover:bg-prime"
             onClick={onclick}
           >
-            &lt;
+            <span class="material-symbols-outlined text-[20px]">
+              chevron_left
+            </span>
           </button>
         );
       }}
       renderNextButton={() => {
         return (
           <button
-            className="bg-prime/70 w-[20px] h-[20px] bold text-sm text-yellow-500 p-0 relative top-[2px] left-[4px] leading-[20px] rounded-full hover:bg-prime"
+            className="bg-prime/70 w-[20px] h-[20px] text-yellow-500 p-0 relative top-[4px] left-[4px] rounded-full hover:bg-prime"
             onClick={onclick}
           >
-            &gt;
+            <span class="material-symbols-outlined text-[20px]">
+              chevron_right
+            </span>
           </button>
         );
       }}

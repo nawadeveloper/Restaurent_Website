@@ -5,6 +5,7 @@ import Story from "./components/Story";
 import Menu_section from "./components/Menu_section";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
+import Review from "./components/Review";
 
 function App() {
   return (
@@ -29,8 +30,33 @@ function App() {
         </div>
       </section>
 
-      <section id="menu" className="pt-8">
+      <section id="menu" className="py-8">
         <Menu_section />
+
+        <h1 className="text-3xl text-center text-prime pt-9">Review</h1>
+        <p className="text-xs text-center text-prime pb-6">
+          Some good words from our happy customers.
+        </p>
+        <div className="w-full max-w-5xl mx-auto px-4 lg:px-0 pt-2 pb-9 grid grid-flow-row lg:grid-flow-col md:grid-cols-3 gap-6 lg:gap-9">
+          <Review
+            img=""
+            star={5}
+            name="Kimberly Kubek"
+            review="We’ve never had this ethnic food before and it was delicious. Lots of flavor and you don’t have to have heat, if you’re not into that, to have flavorful food. We did a range of heat from none to medium.  Flavors, herbs and spices combined in a way to be something unique but oddly familiar too. We went primarily with Nepali food. It was really good and interesting. The service was amazing. Server, manager, and owner were all available and helpful but also smiling, personable and willing to educate and this cuisine."
+          />
+          <Review
+            img=""
+            star={5}
+            name="Jacob Williams"
+            review="Incredible, authentic Nepali (and Indian) food right here in Tampa. The spicy dishes are quite spicy, like they should be! Staff was very helpful. If you're an adventurous foodie, don't miss it."
+          />
+          <Review
+            img=""
+            star={5}
+            name="Radhames Gonzalez"
+            review="We went to a different restaurant right before walking into this one( the other one, the service was way to slow, which only had 1 other table with guest). We were so happy we walked into this one. The service was quick and the food was delicious! The waiter took his time to explain the menu and what each item was. The goat was amazing with the right amount of spice and tender. Will definitely return here."
+          />
+        </div>
       </section>
 
       <section className="bg-prime flex justify-center" id="contact">
