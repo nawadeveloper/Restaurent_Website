@@ -14,21 +14,23 @@ function App() {
   return (
     <>
       <Navbar />
-      <section className="hero_section h-[75vh] fixed top-0 right-0 left-0 -z-10 flex items-center justify-center">
-        <Hero />
-      </section>
-
       <section id="home">
-        <div className="flex justify-center mt-[75vh] z-50  py-9 px-4 lg:px-0 bg-gray-200">
-          <Story />
+        <div className="hero_section w-full -z-10 flex items-center justify-center">
+          <Hero />
         </div>
-        <div className="w-full max-w-5xl m-auto overflow-hidden mt-6 z-50 px-4 lg:px-0 bg-white">
-          <h1 className="text-3xl text-center text-prime pt-6">Gallery</h1>
-          <p className="text-xs text-center text-prime pb-6">
-            Look at some of our Culture and Food.
-          </p>
-          <div className="border border-prime">
-            <Gallery />
+
+        <div>
+          <div className="flex justify-center z-50  py-9 px-4 lg:px-0 lg:py-12 bg-gray-200">
+            <Story />
+          </div>
+          <div className="w-full max-w-5xl m-auto overflow-hidden mt-6 z-50 px-4 lg:px-0 bg-white">
+            <h1 className="text-3xl text-center text-prime pt-6">Gallery</h1>
+            <p className="text-xs text-center text-prime pb-6">
+              Look at some of our Culture and Food.
+            </p>
+            <div className="border border-prime">
+              <Gallery />
+            </div>
           </div>
         </div>
       </section>

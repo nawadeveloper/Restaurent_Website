@@ -7,18 +7,19 @@ import { useEffect } from "react";
 const Navbar = () => {
   const [icon, setIcon] = useState("menu");
   const [height, setHeight] = useState(false);
-  const [scrollBg, setScrollBg] = useState("transparent");
-  const height_of_navbar = 45;
+  const [scrollBg, setScrollBg] = useState("rgba(41, 37, 36, 0.7)");
+  //const height_of_navbar = 45;
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const viewportHeightPx = window.innerHeight;
-      const scrollPositionVh =
-        ((scrollPosition + height_of_navbar) / viewportHeightPx) * 100;
-      const threshold = 75; // Adjust this value to your desired threshold
+      // const viewportHeightPx = window.innerHeight;
+      // const scrollPositionVh =
+      // ((scrollPosition + height_of_navbar) / viewportHeightPx) * 100;
 
-      if (scrollPositionVh > threshold) {
+      const threshold = 550; // Adjust this value to your desired threshold
+
+      if (scrollPosition > threshold) {
         setScrollBg("rgba(41, 37, 36, 1)"); // Change background color when scrolled beyond the threshold
       } else {
         setScrollBg("rgba(41, 37, 36, 0.7)"); // Reset background color when scrolled back above the threshold

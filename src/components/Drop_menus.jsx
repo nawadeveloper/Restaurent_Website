@@ -18,7 +18,7 @@ const Drop_menus = (props) => {
             smooth={false}
             spy={true}
             duration={100}
-            offset={-200}
+            // offset={-200}
             to="home"
           >
             Home
