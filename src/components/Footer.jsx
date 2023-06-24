@@ -131,32 +131,32 @@ const Footer = () => {
         <table className="text-gray-300 uppercase text-xs">
           <tbody>
             <tr>
-              <td>Monday</td>
-              <td>11 AM - 2:30 PM | 5 PM - 9:30 PM</td>
+              <td className="p-1">Monday</td>
+              <td className="p-1">11 AM - 2:30 PM | 5 PM - 9:30 PM</td>
             </tr>
             <tr>
-              <td>Tuesday</td>
-              <td>Closed</td>
+              <td className="p-1">Tuesday</td>
+              <td className="p-1">Closed</td>
             </tr>
             <tr>
-              <td>Wednesday</td>
-              <td>11 AM - 2:30 PM | 5 PM - 9:30 PM</td>
+              <td className="p-1">Wednesday</td>
+              <td className="p-1">11 AM - 2:30 PM | 5 PM - 9:30 PM</td>
             </tr>
             <tr>
-              <td>Thursday</td>
-              <td>11 AM - 2:30 PM | 5 PM - 9:30 PM</td>
+              <td className="p-1">Thursday</td>
+              <td className="p-1">11 AM - 2:30 PM | 5 PM - 9:30 PM</td>
             </tr>
             <tr>
-              <td>Friday</td>
-              <td>11 AM - 2:30 PM | 5 PM - 10 PM</td>
+              <td className="p-1">Friday</td>
+              <td className="p-1">11 AM - 2:30 PM | 5 PM - 10 PM</td>
             </tr>
             <tr>
-              <td>Saturday</td>
-              <td>11 AM - 2:30 PM | 5 PM - 10 PM</td>
+              <td className="p-1">Saturday</td>
+              <td className="p-1">11 AM - 2:30 PM | 5 PM - 10 PM</td>
             </tr>
             <tr>
-              <td>Sunday</td>
-              <td>11 AM - 2:30 PM | 5 PM - 10 PM</td>
+              <td className="p-1">Sunday</td>
+              <td className="p-1">11 AM - 2:30 PM | 5 PM - 10 PM</td>
             </tr>
           </tbody>
         </table>
