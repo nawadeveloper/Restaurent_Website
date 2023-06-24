@@ -36,7 +36,11 @@ const Hero = () => {
 
           <div className="flex justify-center gap-8">
             <Button_component btn_text="menu" href="#menu" />
-            <Button_component btn_text="order" href="#order" />
+            <Button_component
+              btn_text="order"
+              href="https://www.clover.com/online-ordering/gorkhali-kitchen-tampa"
+              target="_blank"
+            />
           </div>
         </div>
       </div>
